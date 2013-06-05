@@ -69,7 +69,6 @@ void StaticArrayList::createItemAt(int loc, int item) {
 
 	//If not full
 	if (!isFull()) {
-
 		if (loc < 0 || loc >= size -1) {
 			cout <<"\n Location is out of bound";
 		} else {
@@ -138,4 +137,4 @@ void StaticArrayList::deleteItem(int item) {
 		cout<<endl<<"Item does not exist";
 	}
 }
-}/* namespace List */
+} /* namespace List */
